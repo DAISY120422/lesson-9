@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:rgba(221, 160, 190, 0.404);
+    color: rgb(236, 24, 94);
+}
+h1{
+    color: rgba(247, 33, 104, 0.799);
+}
+a{
+    color: rgb(135, 17, 48);
+}
+a:hover{
+    color: rgb(250, 177, 182);
+}
+ul>li{
+    font-weight: bold;
+}
+h1+p{
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 5px;
+}
+ul li:hover{
+    color: rgba(163, 61, 197, 0.756);
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+ul li:before{
+    content:"𝄞⨾𓍢ִ໋"
+}
+a::after{
+    content:"✩♬ ₊˚.🎧⋆☾⋆⁺₊✧"
+}
+p::first-letter{
+    font-size: 200%;
+    color:rgba(255, 0, 60, 0.953)
+}
